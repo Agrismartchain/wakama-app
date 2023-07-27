@@ -1,4 +1,15 @@
+
 {
+  "name": "wakama.io",
+  "version": "0.2.0",
+  "description": "wakama",
+  "main": "client/src/main.jsx",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
@@ -6,5 +17,19 @@
   },
   "engines": {
     "node": "14.17.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Agrismartchain/wakama-app"
+  },
+  "keywords": [
+    "node",
+    "render",
+    "express"
+  ],
+  "author": "OUATTARA AHMED",
+  "contributors": [
+    "ouattara ahmed"
+  ],
+  "license": "MIT"
 }
